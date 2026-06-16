@@ -20,19 +20,18 @@
       "Self-destructs when attacking"
     ]
   },
+
   {
-    "name": "FPVDronei",
-    "unitType": "Recon",
-    "movement": 7,
-    "strength": 1,
-    "maxHealth": 12,
-    "cost": 260,
-    "requiredTech": "Mathematics",
+    "name": "FPVDrone",
+    "unitType": "Air",
+    "movement": 9,
+    "strength": 6,
+    "cost": 180,
+    "requiredTech": "TablePhonesCustom",
     "uniques": [
       "Suicide",
-      "Explodes when killed",
-      "Deals [60] damage on death",
-      "Can move after attacking"
+      "Can pass through tiles containing enemy units",
+      "Ignores Zone of Control"
     ]
   }
 ]
