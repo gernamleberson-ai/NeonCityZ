@@ -1,10 +1,30 @@
 [
   {
     "name": "Ancient",
-    "startPercent": 0
+    "order": 1
   },
   {
-    "name": "Neon",
-    "startPercent": 50
+    "name": "Classical",
+    "order": 2
+  },
+  {
+    "name": "Medieval",
+    "order": 3
+  },
+  {
+    "name": "Renaissance",
+    "order": 4
+  },
+  {
+    "name": "Industrial",
+    "order": 5
+  },
+  {
+    "name": "Modern",
+    "order": 6
+  },
+  {
+    "name": "Neon Tech",
+    "order": 7
   }
 ]
