@@ -1,15 +1,8 @@
-[
-  {
-    "name": "TablePhonesCustom",
-    "cost": 60,
-    "row": 3,
-    "column": 1,
-    "era": "Classical",
-    "prerequisites": ["Mathematics"],
-    "turns": 15,
-    "uniques": [
-      "Placeholder tech",
-      "Does nothing yet"
-    ]
-  }
-]
+{
+  "name": "TablePhonesCustom",
+  "cost": 10,
+  "era": "Ancient",
+  "column": 6,
+  "prerequisites": [],
+  "uniques": []
+}
