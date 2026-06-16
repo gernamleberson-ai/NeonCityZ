@@ -1,5 +1,16 @@
 [
   {
+    "name": "NationalFlag",
+    "cost": 80,
+    "faith": 6,
+    "happiness": 8
+  },
+  {
+    "name": "TrainingArena",
+    "cost": 120,
+    "cityStrength": 15
+  },
+  {
     "name": "UA_Cherteg",
     "uniqueTo": "Україна",
     "cost": 180,
@@ -10,16 +21,35 @@
     }
   },
   {
-    "name": "mine",
+    "name": "DzerzhavnaPisnya",
+    "uniqueTo": "Україна",
+    "cost": 140,
+    "requiredTech": "Drama and Poetry",
+    "faith": 8,
+    "happiness": 3
+  },
+  {
+    "name": "ProgrammingDorm",
+    "uniqueTo": "Україна",
+    "cost": 220,
+    "requiredTech": "Education",
+    "science": 10,
+    "percentStatBonus": {
+      "science": 150
+    }
+  },
+  {
+    "name": "UA_Mine",
     "uniqueTo": "Україна",
     "cost": 120,
     "requiredTech": "Mining",
-    "gold": 3
+    "gold": 10
   },
   {
     "name": "TradeTable",
-    "cost": 140,
+    "cost": 160,
     "requiredTech": "Currency",
-    "gold": 2
+    "gold": 4,
+    "happiness": 1
   }
 ]
