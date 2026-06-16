@@ -1,5 +1,209 @@
 [
   {
+    "name": "CompaniesPhone Hub",
+    "cost": 180,
+    "requiredTech": "CompaniesPhone",
+    "science": 2,
+    "gold": 2,
+    "happiness": 1
+  },
+
+  {
+    "name": "Iphone 11",
+    "cost": 120,
+    "requiredTech": "Iphone 11",
+    "science": 1,
+    "happiness": 1
+  },
+  {
+    "name": "Iphone 12",
+    "cost": 160,
+    "requiredTech": "Iphone 12",
+    "science": 2,
+    "happiness": 1
+  },
+  {
+    "name": "Iphone 13",
+    "cost": 210,
+    "requiredTech": "Iphone 13",
+    "science": 3,
+    "happiness": 2
+  },
+  {
+    "name": "Iphone 14",
+    "cost": 280,
+    "requiredTech": "Iphone 14",
+    "science": 4,
+    "happiness": 2,
+    "gold": 1
+  },
+  {
+    "name": "Iphone 15",
+    "cost": 360,
+    "requiredTech": "Iphone 15",
+    "science": 5,
+    "happiness": 3,
+    "gold": 1
+  },
+
+  {
+    "name": "Samsung S1",
+    "cost": 120,
+    "requiredTech": "Samsung S1",
+    "production": 1,
+    "science": 1
+  },
+  {
+    "name": "Samsung S2",
+    "cost": 160,
+    "requiredTech": "Samsung S2",
+    "production": 2,
+    "science": 1,
+    "happiness": 1
+  },
+  {
+    "name": "Samsung S3",
+    "cost": 210,
+    "requiredTech": "Samsung S3",
+    "production": 3,
+    "science": 2,
+    "happiness": 1
+  },
+  {
+    "name": "Samsung S4",
+    "cost": 280,
+    "requiredTech": "Samsung S4",
+    "production": 4,
+    "science": 2,
+    "gold": 1
+  },
+  {
+    "name": "Samsung S5",
+    "cost": 360,
+    "requiredTech": "Samsung S5",
+    "production": 5,
+    "science": 3,
+    "gold": 1,
+    "happiness": 1
+  },
+
+  {
+    "name": "Xiaomi 1",
+    "cost": 110,
+    "requiredTech": "Xiaomi 1",
+    "gold": 1,
+    "science": 1
+  },
+  {
+    "name": "Xiaomi 2",
+    "cost": 150,
+    "requiredTech": "Xiaomi 2",
+    "gold": 2,
+    "science": 1
+  },
+  {
+    "name": "Xiaomi 3",
+    "cost": 200,
+    "requiredTech": "Xiaomi 3",
+    "gold": 3,
+    "science": 2
+  },
+  {
+    "name": "Xiaomi 4",
+    "cost": 270,
+    "requiredTech": "Xiaomi 4",
+    "gold": 4,
+    "science": 2,
+    "faith": 1
+  },
+  {
+    "name": "Xiaomi 5",
+    "cost": 350,
+    "requiredTech": "Xiaomi 5",
+    "gold": 5,
+    "science": 3,
+    "faith": 1
+  },
+
+  {
+    "name": "RedMagic 1",
+    "cost": 120,
+    "requiredTech": "RedMagic 1",
+    "production": 1,
+    "gold": 1
+  },
+  {
+    "name": "RedMagic 2",
+    "cost": 160,
+    "requiredTech": "RedMagic 2",
+    "production": 2,
+    "gold": 1,
+    "happiness": 1
+  },
+  {
+    "name": "RedMagic 3",
+    "cost": 210,
+    "requiredTech": "RedMagic 3",
+    "production": 3,
+    "gold": 2,
+    "happiness": 1
+  },
+  {
+    "name": "RedMagic 4",
+    "cost": 280,
+    "requiredTech": "RedMagic 4",
+    "production": 4,
+    "science": 1,
+    "gold": 2
+  },
+  {
+    "name": "RedMagic 5",
+    "cost": 360,
+    "requiredTech": "RedMagic 5",
+    "production": 5,
+    "science": 1,
+    "gold": 3
+  },
+
+  {
+    "name": "Nubia 1",
+    "cost": 110,
+    "requiredTech": "Nubia 1",
+    "faith": 1,
+    "science": 1
+  },
+  {
+    "name": "Nubia 2",
+    "cost": 150,
+    "requiredTech": "Nubia 2",
+    "faith": 2,
+    "science": 1
+  },
+  {
+    "name": "Nubia 3",
+    "cost": 200,
+    "requiredTech": "Nubia 3",
+    "faith": 3,
+    "science": 2
+  },
+  {
+    "name": "Nubia 4",
+    "cost": 270,
+    "requiredTech": "Nubia 4",
+    "faith": 4,
+    "science": 2,
+    "happiness": 1
+  },
+  {
+    "name": "Nubia 5",
+    "cost": 350,
+    "requiredTech": "Nubia 5",
+    "faith": 5,
+    "science": 3,
+    "happiness": 1
+  },
+
+  {
     "name": "NationalFlag",
     "cost": 80,
     "faith": 6,
@@ -10,6 +214,7 @@
     "cost": 120,
     "cityStrength": 15
   },
+
   {
     "name": "UA_Cherteg",
     "uniqueTo": "Україна",
