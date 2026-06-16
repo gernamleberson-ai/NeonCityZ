@@ -2,45 +2,25 @@
   {
     "name": "Dollar",
     "resourceType": "Strategic",
-    "unique": [
-      "Stockpiled",
-      "Cannot be traded",
-      "Not shown on world screen",
-      "AI will buy at [300] Gold",
-      "AI will sell at [150] Gold"
-    ]
+    "terrainsCanBeFoundOn": ["Plains", "Grassland", "Desert"],
+    "unique": ["Generated with weight [3]"]
   },
   {
     "name": "Grivna",
     "resourceType": "Strategic",
-    "unique": [
-      "Stockpiled",
-      "Cannot be traded",
-      "Not shown on world screen",
-      "AI will buy at [120] Gold",
-      "AI will sell at [60] Gold"
-    ]
+    "terrainsCanBeFoundOn": ["Plains", "Grassland"],
+    "unique": ["Generated with weight [5]"]
   },
   {
     "name": "Rubl",
     "resourceType": "Strategic",
-    "unique": [
-      "Stockpiled",
-      "Cannot be traded",
-      "Not shown on world screen",
-      "AI will buy at [120] Gold",
-      "AI will sell at [60] Gold"
-    ]
+    "terrainsCanBeFoundOn": ["Plains", "Tundra", "Grassland"],
+    "unique": ["Generated with weight [5]"]
   },
   {
     "name": "Kopeika",
     "resourceType": "Strategic",
-    "unique": [
-      "Stockpiled",
-      "Cannot be traded",
-      "Not shown on world screen",
-      "AI will buy at [40] Gold",
-      "AI will sell at [20] Gold"
-    ]
+    "terrainsCanBeFoundOn": ["Plains", "Grassland"],
+    "unique": ["Generated with weight [8]"]
   }
 ]
