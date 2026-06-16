@@ -1,5 +1,11 @@
-{
-  name: "NeonCity"
-  author: "EEee1406"
-  version: "1.0"
-}
+[
+  {
+    "name": "Neon Tech",
+    "author": "EEee1406",
+    "description": "Stable Neon technology tree test mod",
+    "modUrl": "",
+    "modVersion": 1,
+    "gameVersion": "4.20.13",
+    "categories": ["Expansion"]
+  }
+]
