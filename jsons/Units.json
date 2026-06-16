@@ -19,5 +19,20 @@
     "uniques": [
       "Self-destructs when attacking"
     ]
+  },
+  {
+    "name": "FPVDrone",
+    "unitType": "Recon",
+    "movement": 7,
+    "strength": 1,
+    "maxHealth": 12,
+    "cost": 260,
+    "requiredTech": "Mathematics",
+    "uniques": [
+      "Suicide",
+      "Explodes when killed",
+      "Deals [60] damage on death",
+      "Can move after attacking"
+    ]
   }
 ]
