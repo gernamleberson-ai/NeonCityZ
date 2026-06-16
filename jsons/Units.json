@@ -1,0 +1,36 @@
+[
+  {
+    "name": "RozrakhunkovyiGenius",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 120,
+    "requiredTech": "Mathematics",
+    "uniques": [
+      "Founds a new city"
+    ]
+  },
+  {
+    "name": "CamicadzeCar",
+    "unitType": "Armor",
+    "movement": 6,
+    "strength": 45,
+    "cost": 140,
+    "requiredTech": "Combustion",
+    "uniques": [
+      "Suicide"
+    ]
+  },
+  {
+    "name": "FPVDrone",
+    "unitType": "Air",
+    "movement": 9,
+    "strength": 6,
+    "cost": 180,
+    "requiredTech": "TablePhonesCustom",
+    "uniques": [
+      "Suicide",
+      "Can pass through tiles containing enemy units",
+      "Ignores Zone of Control"
+    ]
+  }
+]
