@@ -1,220 +1,69 @@
 [
   {
     "columnNumber": 1,
-    "era": "Modern",
-    "techCost": 500,
-    "buildingCost": 300,
-    "wonderCost": 900,
+    "era": "Ancient",
     "techs": [
-      {
-        "name": "CompaniesPhone",
-        "row": 0,
-        "prerequisites": ["Radio"]
-      }
+      { "name": "Companies Phone", "row": 0, "cost": 50 }
     ]
   },
+
   {
     "columnNumber": 2,
-    "era": "Modern",
-    "techCost": 550,
-    "buildingCost": 320,
-    "wonderCost": 950,
+    "era": "Ancient",
     "techs": [
-      {
-        "name": "Iphone",
-        "row": 0,
-        "prerequisites": ["CompaniesPhone"]
-      },
-      {
-        "name": "Samsung",
-        "row": 1,
-        "prerequisites": ["CompaniesPhone"]
-      },
-      {
-        "name": "Xiaomi",
-        "row": 2,
-        "prerequisites": ["CompaniesPhone"]
-      },
-      {
-        "name": "RedMagic",
-        "row": 3,
-        "prerequisites": ["CompaniesPhone"]
-      },
-      {
-        "name": "Nubia",
-        "row": 4,
-        "prerequisites": ["CompaniesPhone"]
-      }
+      { "name": "Iphone 11", "row": 0, "cost": 60, "prerequisites": ["Companies Phone"] },
+      { "name": "Samsung S1", "row": 1, "cost": 60, "prerequisites": ["Companies Phone"] },
+      { "name": "Xiaomi 1", "row": 2, "cost": 60, "prerequisites": ["Companies Phone"] },
+      { "name": "RedMagic 1", "row": 3, "cost": 60, "prerequisites": ["Companies Phone"] },
+      { "name": "Nubia 1", "row": 4, "cost": 60, "prerequisites": ["Companies Phone"] }
     ]
   },
+
   {
     "columnNumber": 3,
-    "era": "Modern",
-    "techCost": 650,
-    "buildingCost": 360,
-    "wonderCost": 1000,
+    "era": "Classical",
     "techs": [
-      {
-        "name": "Iphone 11",
-        "row": 0,
-        "prerequisites": ["Iphone"]
-      },
-      {
-        "name": "Samsung S1",
-        "row": 1,
-        "prerequisites": ["Samsung"]
-      },
-      {
-        "name": "Xiaomi 1",
-        "row": 2,
-        "prerequisites": ["Xiaomi"]
-      },
-      {
-        "name": "RedMagic 1",
-        "row": 3,
-        "prerequisites": ["RedMagic"]
-      },
-      {
-        "name": "Nubia 1",
-        "row": 4,
-        "prerequisites": ["Nubia"]
-      }
+      { "name": "Iphone 12", "row": 0, "cost": 80, "prerequisites": ["Iphone 11"] },
+      { "name": "Samsung S2", "row": 1, "cost": 80, "prerequisites": ["Samsung S1"] },
+      { "name": "Xiaomi 2", "row": 2, "cost": 80, "prerequisites": ["Xiaomi 1"] },
+      { "name": "RedMagic 2", "row": 3, "cost": 80, "prerequisites": ["RedMagic 1"] },
+      { "name": "Nubia 2", "row": 4, "cost": 80, "prerequisites": ["Nubia 1"] }
     ]
   },
+
   {
     "columnNumber": 4,
-    "era": "Modern",
-    "techCost": 750,
-    "buildingCost": 420,
-    "wonderCost": 1100,
+    "era": "Medieval",
     "techs": [
-      {
-        "name": "Iphone 12",
-        "row": 0,
-        "prerequisites": ["Iphone 11"]
-      },
-      {
-        "name": "Samsung S2",
-        "row": 1,
-        "prerequisites": ["Samsung S1"]
-      },
-      {
-        "name": "Xiaomi 2",
-        "row": 2,
-        "prerequisites": ["Xiaomi 1"]
-      },
-      {
-        "name": "RedMagic 2",
-        "row": 3,
-        "prerequisites": ["RedMagic 1"]
-      },
-      {
-        "name": "Nubia 2",
-        "row": 4,
-        "prerequisites": ["Nubia 1"]
-      }
+      { "name": "Iphone 13", "row": 0, "cost": 100, "prerequisites": ["Iphone 12"] },
+      { "name": "Samsung S3", "row": 1, "cost": 100, "prerequisites": ["Samsung S2"] },
+      { "name": "Xiaomi 3", "row": 2, "cost": 100, "prerequisites": ["Xiaomi 2"] },
+      { "name": "RedMagic 3", "row": 3, "cost": 100, "prerequisites": ["RedMagic 2"] },
+      { "name": "Nubia 3", "row": 4, "cost": 100, "prerequisites": ["Nubia 2"] }
     ]
   },
+
   {
     "columnNumber": 5,
-    "era": "Modern",
-    "techCost": 900,
-    "buildingCost": 500,
-    "wonderCost": 1200,
+    "era": "Renaissance",
     "techs": [
-      {
-        "name": "Iphone 13",
-        "row": 0,
-        "prerequisites": ["Iphone 12"]
-      },
-      {
-        "name": "Samsung S3",
-        "row": 1,
-        "prerequisites": ["Samsung S2"]
-      },
-      {
-        "name": "Xiaomi 3",
-        "row": 2,
-        "prerequisites": ["Xiaomi 2"]
-      },
-      {
-        "name": "RedMagic 3",
-        "row": 3,
-        "prerequisites": ["RedMagic 2"]
-      },
-      {
-        "name": "Nubia 3",
-        "row": 4,
-        "prerequisites": ["Nubia 2"]
-      }
+      { "name": "Iphone 14", "row": 0, "cost": 120, "prerequisites": ["Iphone 13"] },
+      { "name": "Samsung S4", "row": 1, "cost": 120, "prerequisites": ["Samsung S3"] },
+      { "name": "Xiaomi 4", "row": 2, "cost": 120, "prerequisites": ["Xiaomi 3"] },
+      { "name": "RedMagic 4", "row": 3, "cost": 120, "prerequisites": ["RedMagic 3"] },
+      { "name": "Nubia 4", "row": 4, "cost": 120, "prerequisites": ["Nubia 3"] }
     ]
   },
+
   {
     "columnNumber": 6,
-    "era": "Modern",
-    "techCost": 1100,
-    "buildingCost": 620,
-    "wonderCost": 1350,
+    "era": "Industrial",
     "techs": [
-      {
-        "name": "Iphone 14",
-        "row": 0,
-        "prerequisites": ["Iphone 13"]
-      },
-      {
-        "name": "Samsung S4",
-        "row": 1,
-        "prerequisites": ["Samsung S3"]
-      },
-      {
-        "name": "Xiaomi 4",
-        "row": 2,
-        "prerequisites": ["Xiaomi 3"]
-      },
-      {
-        "name": "RedMagic 4",
-        "row": 3,
-        "prerequisites": ["RedMagic 3"]
-      },
-      {
-        "name": "Nubia 4",
-        "row": 4,
-        "prerequisites": ["Nubia 3"]
-      }
-    ]
-  },
-  {
-    "columnNumber": 7,
-    "era": "Modern",
-    "techCost": 1350,
-    "buildingCost": 760,
-    "wonderCost": 1500,
-    "techs": [
-      {
-        "name": "Iphone 15",
-        "row": 0,
-        "prerequisites": ["Iphone 14"]
-      },
-      {
-        "name": "Samsung S5",
-        "row": 1,
-        "prerequisites": ["Samsung S4"]
-      },
-      {
-        "name": "Xiaomi 5",
-        "row": 2,
-        "prerequisites": ["Xiaomi 4"]
-      },
-      {
-        "name": "RedMagic 5",
-        "row": 3,
-        "prerequisites": ["RedMagic 4"]
-      },
-      {
-        "name": "Nubia 5",
-        "row": 4,
-        "prerequisites": ["Nubia 4"]
-      }
+      { "name": "Iphone 15", "row": 0, "cost": 150, "prerequisites": ["Iphone 14"] },
+      { "name": "Samsung S5", "row": 1, "cost": 150, "prerequisites": ["Samsung S4"] },
+      { "name": "Xiaomi 5", "row": 2, "cost": 150, "prerequisites": ["Xiaomi 4"] },
+      { "name": "RedMagic 5", "row": 3, "cost": 150, "prerequisites": ["RedMagic 4"] },
+      { "name": "Nubia 5", "row": 4, "cost": 150, "prerequisites": ["Nubia 4"] }
     ]
   }
 ]
