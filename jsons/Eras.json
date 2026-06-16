@@ -1,0 +1,13 @@
+[
+  { "name": "Ancient" },
+  { "name": "Classical" },
+  { "name": "Medieval" },
+  { "name": "Renaissance" },
+  { "name": "Industrial" },
+  { "name": "Modern" },
+
+  {
+    "name": "NeonTech",
+    "iconRGB": [0, 255, 200]
+  }
+]
