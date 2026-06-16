@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mathematics",
+    "cost": 50,
+    "era": "Ancient",
+    "column": 1,
+    "prerequisites": [],
+    "uniques": []
+  },
+  {
+    "name": "TablePhonesCustom",
+    "cost": 10,
+    "era": "Ancient",
+    "column": 2,
+    "prerequisites": ["Mathematics"],
+    "uniques": []
+  },
+  {
+    "name": "Combustion",
+    "cost": 80,
+    "era": "Classical",
+    "column": 1,
+    "prerequisites": ["Mathematics"],
+    "uniques": []
+  }
+]
