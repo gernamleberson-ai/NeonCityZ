@@ -1,25 +1,19 @@
 [
   {
     "name": "Mathematics",
-    "cost": 50,
-    "era": "Ancient",
-    "column": 1,
-    "prerequisites": [],
-    "uniques": []
+    "era": "Ancient"
   },
   {
     "name": "TablePhonesCustom",
-    "cost": 10,
-    "era": "Ancient",
-    "column": 2,
+    "era": "TritonEnergy",
+    "cost": 40,
     "prerequisites": ["Mathematics"],
     "uniques": []
   },
   {
-    "name": "Combustion",
+    "name": "FPVSystems",
+    "era": "TritonEnergy",
     "cost": 80,
-    "era": "Classical",
-    "column": 1,
     "prerequisites": ["Mathematics"],
     "uniques": []
   }
