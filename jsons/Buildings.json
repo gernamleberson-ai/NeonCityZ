@@ -1,281 +1,55 @@
 [
   {
-    "name": "NeonStart",
-    "era": "Ancient",
-    "cost": 20,
-    "row": 1,
-    "column": 1,
-    "prerequisites": [],
-    "uniques": []
-  },
-
-  {
-    "name": "CompaniesPhone",
-    "era": "Ancient",
-    "cost": 40,
-    "row": 1,
-    "column": 2,
-    "prerequisites": ["NeonStart"],
-    "uniques": []
-  },
-
-  {
-    "name": "Iphone",
-    "era": "Ancient",
-    "cost": 60,
-    "row": 2,
-    "column": 1,
-    "prerequisites": ["CompaniesPhone"],
-    "uniques": []
-  },
-
-  {
-    "name": "Iphone11",
-    "era": "Ancient",
+    "name": "NationalFlag",
     "cost": 80,
-    "row": 2,
-    "column": 2,
-    "prerequisites": ["Iphone"],
-    "uniques": []
+    "faith": 6,
+    "happiness": 8
   },
-
   {
-    "name": "Iphone12",
-    "era": "Classical",
-    "cost": 100,
-    "row": 2,
-    "column": 3,
-    "prerequisites": ["Iphone11"],
-    "uniques": []
-  },
-
-  {
-    "name": "Iphone13",
-    "era": "Medieval",
+    "name": "TrainingArena",
     "cost": 120,
-    "row": 3,
-    "column": 1,
-    "prerequisites": ["Iphone12"],
-    "uniques": []
+    "cityStrength": 15
   },
-
   {
-    "name": "Iphone14",
-    "era": "Renaissance",
+    "name": "UA_Cherteg",
+    "uniqueTo": "Україна",
+    "cost": 180,
+    "requiredTech": "Education",
+    "science": 4,
+    "percentStatBonus": {
+      "science": 50
+    }
+  },
+  {
+    "name": "DzerzhavnaPisnya",
+    "uniqueTo": "Україна",
     "cost": 140,
-    "row": 3,
-    "column": 2,
-    "prerequisites": ["Iphone13"],
-    "uniques": []
+    "requiredTech": "Drama and Poetry",
+    "faith": 8,
+    "happiness": 3
   },
-
   {
-    "name": "Iphone15",
-    "era": "Industrial",
+    "name": "ProgrammingDorm",
+    "uniqueTo": "Україна",
+    "cost": 220,
+    "requiredTech": "Education",
+    "science": 10,
+    "percentStatBonus": {
+      "science": 150
+    }
+  },
+  {
+    "name": "UA_Mine",
+    "uniqueTo": "Україна",
+    "cost": 120,
+    "requiredTech": "Mining",
+    "gold": 10
+  },
+  {
+    "name": "TradeTable",
     "cost": 160,
-    "row": 3,
-    "column": 3,
-    "prerequisites": ["Iphone14"],
-    "uniques": []
-  },
-
-  {
-    "name": "SamsungS1",
-    "era": "Ancient",
-    "cost": 60,
-    "row": 2,
-    "column": 4,
-    "prerequisites": ["CompaniesPhone"],
-    "uniques": []
-  },
-
-  {
-    "name": "SamsungS2",
-    "era": "Classical",
-    "cost": 80,
-    "row": 3,
-    "column": 4,
-    "prerequisites": ["SamsungS1"],
-    "uniques": []
-  },
-
-  {
-    "name": "SamsungS3",
-    "era": "Medieval",
-    "cost": 100,
-    "row": 4,
-    "column": 4,
-    "prerequisites": ["SamsungS2"],
-    "uniques": []
-  },
-
-  {
-    "name": "SamsungS4",
-    "era": "Renaissance",
-    "cost": 120,
-    "row": 5,
-    "column": 4,
-    "prerequisites": ["SamsungS3"],
-    "uniques": []
-  },
-
-  {
-    "name": "SamsungS5",
-    "era": "Industrial",
-    "cost": 140,
-    "row": 6,
-    "column": 4,
-    "prerequisites": ["SamsungS4"],
-    "uniques": []
-  },
-
-  {
-    "name": "Xiaomi1",
-    "era": "Ancient",
-    "cost": 50,
-    "row": 2,
-    "column": 5,
-    "prerequisites": ["CompaniesPhone"],
-    "uniques": []
-  },
-
-  {
-    "name": "Xiaomi2",
-    "era": "Classical",
-    "cost": 70,
-    "row": 3,
-    "column": 5,
-    "prerequisites": ["Xiaomi1"],
-    "uniques": []
-  },
-
-  {
-    "name": "Xiaomi3",
-    "era": "Medieval",
-    "cost": 90,
-    "row": 4,
-    "column": 5,
-    "prerequisites": ["Xiaomi2"],
-    "uniques": []
-  },
-
-  {
-    "name": "Xiaomi4",
-    "era": "Renaissance",
-    "cost": 110,
-    "row": 5,
-    "column": 5,
-    "prerequisites": ["Xiaomi3"],
-    "uniques": []
-  },
-
-  {
-    "name": "Xiaomi5",
-    "era": "Industrial",
-    "cost": 130,
-    "row": 6,
-    "column": 5,
-    "prerequisites": ["Xiaomi4"],
-    "uniques": []
-  },
-
-  {
-    "name": "RedMagic1",
-    "era": "Ancient",
-    "cost": 60,
-    "row": 2,
-    "column": 6,
-    "prerequisites": ["CompaniesPhone"],
-    "uniques": []
-  },
-
-  {
-    "name": "RedMagic2",
-    "era": "Classical",
-    "cost": 80,
-    "row": 3,
-    "column": 6,
-    "prerequisites": ["RedMagic1"],
-    "uniques": []
-  },
-
-  {
-    "name": "RedMagic3",
-    "era": "Medieval",
-    "cost": 100,
-    "row": 4,
-    "column": 6,
-    "prerequisites": ["RedMagic2"],
-    "uniques": []
-  },
-
-  {
-    "name": "RedMagic4",
-    "era": "Renaissance",
-    "cost": 120,
-    "row": 5,
-    "column": 6,
-    "prerequisites": ["RedMagic3"],
-    "uniques": []
-  },
-
-  {
-    "name": "RedMagic5",
-    "era": "Industrial",
-    "cost": 140,
-    "row": 6,
-    "column": 6,
-    "prerequisites": ["RedMagic4"],
-    "uniques": []
-  },
-
-  {
-    "name": "Nubia1",
-    "era": "Ancient",
-    "cost": 60,
-    "row": 2,
-    "column": 7,
-    "prerequisites": ["CompaniesPhone"],
-    "uniques": []
-  },
-
-  {
-    "name": "Nubia2",
-    "era": "Classical",
-    "cost": 80,
-    "row": 3,
-    "column": 7,
-    "prerequisites": ["Nubia1"],
-    "uniques": []
-  },
-
-  {
-    "name": "Nubia3",
-    "era": "Medieval",
-    "cost": 100,
-    "row": 4,
-    "column": 7,
-    "prerequisites": ["Nubia2"],
-    "uniques": []
-  },
-
-  {
-    "name": "Nubia4",
-    "era": "Renaissance",
-    "cost": 120,
-    "row": 5,
-    "column": 7,
-    "prerequisites": ["Nubia3"],
-    "uniques": []
-  },
-
-  {
-    "name": "Nubia5",
-    "era": "Industrial",
-    "cost": 140,
-    "row": 6,
-    "column": 7,
-    "prerequisites": ["Nubia4"],
-    "uniques": []
+    "requiredTech": "Currency",
+    "gold": 4,
+    "happiness": 1
   }
 ]
