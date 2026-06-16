@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Dollar",
+    "resourceType": "Strategic",
+    "unique": ["Stockpiled"]
+  },
+  {
+    "name": "Grivna",
+    "resourceType": "Strategic",
+    "unique": ["Stockpiled"]
+  },
+  {
+    "name": "Rubl",
+    "resourceType": "Strategic",
+    "unique": ["Stockpiled"]
+  },
+  {
+    "name": "Kopeika",
+    "resourceType": "Strategic",
+    "unique": ["Stockpiled"]
+  }
+]
