@@ -89,85 +89,6 @@
   {
     "columnNumber": 25,
     "era": "Classical",
-    "techCost": 80,
-    "buildingCost": 140,
-    "wonderCost": 340,
-    "techs": [
-      {
-        "name": "SamsungS1",
-        "row": 1,
-        "cost": 80,
-        "prerequisites": ["SamsungV1"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS2",
-        "row": 2,
-        "cost": 85,
-        "prerequisites": ["SamsungS1"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS3",
-        "row": 3,
-        "cost": 90,
-        "prerequisites": ["SamsungS2"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS4",
-        "row": 4,
-        "cost": 95,
-        "prerequisites": ["SamsungS3"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS5",
-        "row": 5,
-        "cost": 100,
-        "prerequisites": ["SamsungS4"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS6",
-        "row": 6,
-        "cost": 105,
-        "prerequisites": ["SamsungS5"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS7",
-        "row": 7,
-        "cost": 110,
-        "prerequisites": ["SamsungS6"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS8",
-        "row": 8,
-        "cost": 115,
-        "prerequisites": ["SamsungS7"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS9",
-        "row": 9,
-        "cost": 120,
-        "prerequisites": ["SamsungS8"],
-        "uniques": []
-      },
-      {
-        "name": "SamsungS10",
-        "row": 10,
-        "cost": 125,
-        "prerequisites": ["SamsungS9"],
-        "uniques": []
-      }
-    ]
-  },
-  {
-    "columnNumber": 26,
-    "era": "Medieval",
     "techCost": 90,
     "buildingCost": 150,
     "wonderCost": 360,
@@ -176,14 +97,46 @@
         "name": "SamsungV2",
         "row": 1,
         "cost": 90,
-        "prerequisites": ["SamsungS10"],
+        "prerequisites": ["SamsungV1"],
+        "uniques": []
+      }
+    ]
+  },
+  {
+    "columnNumber": 26,
+    "era": "Classical",
+    "techCost": 70,
+    "buildingCost": 130,
+    "wonderCost": 320,
+    "techs": [
+      {
+        "name": "IphoneV1",
+        "row": 1,
+        "cost": 70,
+        "prerequisites": ["IphoneWood"],
         "uniques": []
       }
     ]
   },
   {
     "columnNumber": 27,
-    "era": "Medieval",
+    "era": "Classical",
+    "techCost": 90,
+    "buildingCost": 150,
+    "wonderCost": 360,
+    "techs": [
+      {
+        "name": "IphoneV2",
+        "row": 1,
+        "cost": 90,
+        "prerequisites": ["IphoneV1"],
+        "uniques": []
+      }
+    ]
+  },
+  {
+    "columnNumber": 28,
+    "era": "Classical",
     "techCost": 100,
     "buildingCost": 160,
     "wonderCost": 380,
@@ -275,119 +228,8 @@
     ]
   },
   {
-    "columnNumber": 28,
-    "era": "Classical",
-    "techCost": 70,
-    "buildingCost": 130,
-    "wonderCost": 320,
-    "techs": [
-      {
-        "name": "IphoneV1",
-        "row": 1,
-        "cost": 70,
-        "prerequisites": ["IphoneWood"],
-        "uniques": []
-      }
-    ]
-  },
-  {
     "columnNumber": 29,
     "era": "Classical",
-    "techCost": 80,
-    "buildingCost": 140,
-    "wonderCost": 340,
-    "techs": [
-      {
-        "name": "IphoneS1",
-        "row": 1,
-        "cost": 80,
-        "prerequisites": ["IphoneV1"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS2",
-        "row": 2,
-        "cost": 85,
-        "prerequisites": ["IphoneS1"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS3",
-        "row": 3,
-        "cost": 90,
-        "prerequisites": ["IphoneS2"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS4",
-        "row": 4,
-        "cost": 95,
-        "prerequisites": ["IphoneS3"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS5",
-        "row": 5,
-        "cost": 100,
-        "prerequisites": ["IphoneS4"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS6",
-        "row": 6,
-        "cost": 105,
-        "prerequisites": ["IphoneS5"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS7",
-        "row": 7,
-        "cost": 110,
-        "prerequisites": ["IphoneS6"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS8",
-        "row": 8,
-        "cost": 115,
-        "prerequisites": ["IphoneS7"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS9",
-        "row": 9,
-        "cost": 120,
-        "prerequisites": ["IphoneS8"],
-        "uniques": []
-      },
-      {
-        "name": "IphoneS10",
-        "row": 10,
-        "cost": 125,
-        "prerequisites": ["IphoneS9"],
-        "uniques": []
-      }
-    ]
-  },
-  {
-    "columnNumber": 30,
-    "era": "Medieval",
-    "techCost": 90,
-    "buildingCost": 150,
-    "wonderCost": 360,
-    "techs": [
-      {
-        "name": "IphoneV2",
-        "row": 1,
-        "cost": 90,
-        "prerequisites": ["IphoneS10"],
-        "uniques": []
-      }
-    ]
-  },
-  {
-    "columnNumber": 31,
-    "era": "Medieval",
     "techCost": 100,
     "buildingCost": 160,
     "wonderCost": 380,
