@@ -101,5 +101,27 @@
     "faith": 30,
     "happiness": 60,
     "science": 50
+  },
+  {
+    "name": "UkrainianOffice",
+    "uniqueTo": "Україна",
+    "cost": 90,
+    "requiredTech": "RealnaRobota",
+    "science": 3,
+    "production": 1
+  },
+  {
+    "name": "DollarOffice",
+    "cost": 110,
+    "requiredTech": "RealnaRobota",
+    "gold": 5,
+    "production": 1
+  },
+  {
+    "name": "Robota",
+    "cost": 130,
+    "requiredTech": "RealnaRobota",
+    "gold": 20,
+    "production": 1
   }
 ]
