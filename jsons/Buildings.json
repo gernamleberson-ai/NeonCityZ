@@ -51,5 +51,55 @@
     "requiredTech": "Currency",
     "gold": 4,
     "happiness": 1
+  },
+  {
+    "name": "StatueOfCossack",
+    "uniqueTo": "Україна",
+    "cost": 80,
+    "faith": 7,
+    "happiness": 1
+  },
+  {
+    "name": "WorkersOffice",
+    "uniqueTo": "Україна",
+    "cost": 120,
+    "requiredTech": "Росписание",
+    "production": 30,
+    "science": 30
+  },
+  {
+    "name": "SmallClock",
+    "uniqueTo": "Україна",
+    "cost": 90,
+    "requiredTech": "Росписание",
+    "happiness": 3,
+    "science": 3
+  },
+  {
+    "name": "MediumClock",
+    "uniqueTo": "Україна",
+    "cost": 130,
+    "requiredTech": "Росписание",
+    "faith": 5,
+    "happiness": 2,
+    "science": 1
+  },
+  {
+    "name": "LargeClock",
+    "uniqueTo": "Україна",
+    "cost": 220,
+    "requiredTech": "Росписание",
+    "faith": 15,
+    "happiness": 10,
+    "science": 30
+  },
+  {
+    "name": "HugeClock",
+    "uniqueTo": "Україна",
+    "cost": 360,
+    "requiredTech": "Росписание",
+    "faith": 30,
+    "happiness": 60,
+    "science": 50
   }
 ]
