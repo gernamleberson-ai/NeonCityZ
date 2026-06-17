@@ -10,7 +10,24 @@
         "name": "Росписание",
         "row": 1,
         "cost": 60,
-        "prerequisites": ["Mathematics"]
+        "prerequisites": ["Mathematics"],
+        "uniques": []
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Classical",
+    "techCost": 60,
+    "buildingCost": 120,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "RealnaRobota",
+        "row": 1,
+        "cost": 60,
+        "prerequisites": ["Money"],
+        "uniques": []
       }
     ]
   }
