@@ -1,20 +1,17 @@
 [
   {
-    "name": "Mathematics",
-    "era": "Ancient"
-  },
-  {
-    "name": "TablePhonesCustom",
-    "era": "TritonEnergy",
-    "cost": 40,
-    "prerequisites": ["Mathematics"],
-    "uniques": []
-  },
-  {
-    "name": "FPVSystems",
-    "era": "TritonEnergy",
-    "cost": 80,
-    "prerequisites": ["Mathematics"],
-    "uniques": []
+    "columnNumber": 1,
+    "era": "Classical",
+    "techCost": 60,
+    "buildingCost": 120,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "Росписание",
+        "row": 1,
+        "cost": 60,
+        "prerequisites": ["Mathematics"]
+      }
+    ]
   }
 ]
