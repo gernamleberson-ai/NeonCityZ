@@ -124,4 +124,409 @@
     "gold": 20,
     "production": 1
   }
-]
+  {
+    "name": "NationalFlag",
+    "cost": 80,
+    "faith": 6,
+    "happiness": 8
+  },
+  {
+    "name": "TrainingArena",
+    "cost": 120,
+    "cityStrength": 15
+  },
+  {
+    "name": "UA_Cherteg",
+    "uniqueTo": "Україна",
+    "cost": 180,
+    "requiredTech": "Education",
+    "science": 4,
+    "percentStatBonus": {
+      "science": 50
+    },
+  {
+    "name": "WoodToyPhoneWorkshop",
+    "cost": 80,
+    "requiredTech": "WoodToyPhone",
+    "science": 1,
+    "production": 1
+  },
+  {
+    "name": "SamsungWoodFactory",
+    "cost": 120,
+    "requiredTech": "SamsungWood",
+    "science": 2,
+    "production": 2
+  },
+  {
+    "name": "IphoneWoodFactory",
+    "cost": 120,
+    "requiredTech": "IphoneWood",
+    "science": 2,
+    "production": 2
+  },
+
+  {
+    "name": "SamsungS1",
+    "cost": 70,
+    "requiredTech": "SamsungV1",
+    "production": 1
+  },
+  {
+    "name": "SamsungS2",
+    "cost": 80,
+    "requiredTech": "SamsungV1",
+    "production": 2
+  },
+  {
+    "name": "SamsungS3",
+    "cost": 90,
+    "requiredTech": "SamsungV1",
+    "production": 3
+  },
+  {
+    "name": "SamsungS4",
+    "cost": 100,
+    "requiredTech": "SamsungV1",
+    "production": 4
+  },
+  {
+    "name": "SamsungS5",
+    "cost": 110,
+    "requiredTech": "SamsungV1",
+    "production": 5
+  },
+  {
+    "name": "SamsungS6",
+    "cost": 120,
+    "requiredTech": "SamsungV1",
+    "production": 6
+  },
+  {
+    "name": "SamsungS7",
+    "cost": 130,
+    "requiredTech": "SamsungV1",
+    "production": 7
+  },
+  {
+    "name": "SamsungS8",
+    "cost": 140,
+    "requiredTech": "SamsungV1",
+    "production": 8
+  },
+  {
+    "name": "SamsungS9",
+    "cost": 150,
+    "requiredTech": "SamsungV1",
+    "production": 9
+  },
+  {
+    "name": "SamsungS10",
+    "cost": 160,
+    "requiredTech": "SamsungV1",
+    "production": 10
+  },
+
+  {
+    "name": "SamsungG34",
+    "cost": 180,
+    "requiredTech": "SamsungV2",
+    "science": 2,
+    "production": 2
+  },
+  {
+    "name": "SamsungG35",
+    "cost": 200,
+    "requiredTech": "SamsungV2",
+    "science": 3,
+    "production": 3
+  },
+  {
+    "name": "SamsungG40",
+    "cost": 220,
+    "requiredTech": "SamsungV2",
+    "science": 4,
+    "production": 4
+  },
+  {
+    "name": "SamsungG34Pro",
+    "cost": 260,
+    "requiredTech": "SamsungV2",
+    "science": 6,
+    "production": 6,
+    "percentStatBonus": {
+      "science": 5,
+      "production": 5
+    }
+  },
+  {
+    "name": "SamsungG35Pro",
+    "cost": 280,
+    "requiredTech": "SamsungV2",
+    "science": 7,
+    "production": 7,
+    "percentStatBonus": {
+      "science": 5,
+      "production": 5
+    }
+  },
+  {
+    "name": "SamsungG40Pro",
+    "cost": 300,
+    "requiredTech": "SamsungV2",
+    "science": 8,
+    "production": 8,
+    "percentStatBonus": {
+      "science": 5,
+      "production": 5
+    }
+  },
+  {
+    "name": "SamsungG34Max",
+    "cost": 360,
+    "requiredTech": "SamsungV2",
+    "science": 10,
+    "production": 10,
+    "percentStatBonus": {
+      "science": 10,
+      "production": 10
+    }
+  },
+  {
+    "name": "SamsungG35Max",
+    "cost": 390,
+    "requiredTech": "SamsungV2",
+    "science": 11,
+    "production": 11,
+    "percentStatBonus": {
+      "science": 10,
+      "production": 10
+    }
+  },
+  {
+    "name": "SamsungG40Max",
+    "cost": 420,
+    "requiredTech": "SamsungV2",
+    "science": 12,
+    "production": 12,
+    "percentStatBonus": {
+      "science": 10,
+      "production": 10
+    }
+  },
+  {
+    "name": "SamsungG34ProMax",
+    "cost": 500,
+    "requiredTech": "SamsungV2",
+    "science": 14,
+    "production": 14,
+    "percentStatBonus": {
+      "science": 20,
+      "production": 20
+    }
+  },
+  {
+    "name": "SamsungG35ProMax",
+    "cost": 530,
+    "requiredTech": "SamsungV2",
+    "science": 15,
+    "production": 15,
+    "percentStatBonus": {
+      "science": 20,
+      "production": 20
+    }
+  },
+  {
+    "name": "SamsungG40ProMax",
+    "cost": 560,
+    "requiredTech": "SamsungV2",
+    "science": 16,
+    "production": 16,
+    "percentStatBonus": {
+      "science": 20,
+      "production": 20
+    }
+  },
+
+  {
+    "name": "IphoneS1",
+    "cost": 70,
+    "requiredTech": "IphoneV1",
+    "science": 1
+  },
+  {
+    "name": "IphoneS2",
+    "cost": 80,
+    "requiredTech": "IphoneV1",
+    "science": 2
+  },
+  {
+    "name": "IphoneS3",
+    "cost": 90,
+    "requiredTech": "IphoneV1",
+    "science": 3
+  },
+  {
+    "name": "IphoneS4",
+    "cost": 100,
+    "requiredTech": "IphoneV1",
+    "science": 4
+  },
+  {
+    "name": "IphoneS5",
+    "cost": 110,
+    "requiredTech": "IphoneV1",
+    "science": 5
+  },
+  {
+    "name": "IphoneS6",
+    "cost": 120,
+    "requiredTech": "IphoneV1",
+    "science": 6
+  },
+  {
+    "name": "IphoneS7",
+    "cost": 130,
+    "requiredTech": "IphoneV1",
+    "science": 7
+  },
+  {
+    "name": "IphoneS8",
+    "cost": 140,
+    "requiredTech": "IphoneV1",
+    "science": 8
+  },
+  {
+    "name": "IphoneS9",
+    "cost": 150,
+    "requiredTech": "IphoneV1",
+    "science": 9
+  },
+  {
+    "name": "IphoneS10",
+    "cost": 160,
+    "requiredTech": "IphoneV1",
+    "science": 10
+  },
+
+  {
+    "name": "IphoneG34",
+    "cost": 180,
+    "requiredTech": "IphoneV2",
+    "science": 2,
+    "production": 2
+  },
+  {
+    "name": "IphoneG35",
+    "cost": 200,
+    "requiredTech": "IphoneV2",
+    "science": 3,
+    "production": 3
+  },
+  {
+    "name": "IphoneG40",
+    "cost": 220,
+    "requiredTech": "IphoneV2",
+    "science": 4,
+    "production": 4
+  },
+  {
+    "name": "IphoneG34Pro",
+    "cost": 260,
+    "requiredTech": "IphoneV2",
+    "science": 6,
+    "production": 6,
+    "percentStatBonus": {
+      "science": 5,
+      "production": 5
+    }
+  },
+  {
+    "name": "IphoneG35Pro",
+    "cost": 280,
+    "requiredTech": "IphoneV2",
+    "science": 7,
+    "production": 7,
+    "percentStatBonus": {
+      "science": 5,
+      "production": 5
+    }
+  },
+  {
+    "name": "IphoneG40Pro",
+    "cost": 300,
+    "requiredTech": "IphoneV2",
+    "science": 8,
+    "production": 8,
+    "percentStatBonus": {
+      "science": 5,
+      "production": 5
+    }
+  },
+  {
+    "name": "IphoneG34Max",
+    "cost": 360,
+    "requiredTech": "IphoneV2",
+    "science": 10,
+    "production": 10,
+    "percentStatBonus": {
+      "science": 10,
+      "production": 10
+    }
+  },
+  {
+    "name": "IphoneG35Max",
+    "cost": 390,
+    "requiredTech": "IphoneV2",
+    "science": 11,
+    "production": 11,
+    "percentStatBonus": {
+      "science": 10,
+      "production": 10
+    }
+  },
+  {
+    "name": "IphoneG40Max",
+    "cost": 420,
+    "requiredTech": "IphoneV2",
+    "science": 12,
+    "production": 12,
+    "percentStatBonus": {
+      "science": 10,
+      "production": 10
+    }
+  },
+  {
+    "name": "IphoneG34ProMax",
+    "cost": 500,
+    "requiredTech": "IphoneV2",
+    "science": 14,
+    "production": 14,
+    "percentStatBonus": {
+      "science": 20,
+      "production": 20
+    }
+  },
+  {
+    "name": "IphoneG35ProMax",
+    "cost": 530,
+    "requiredTech": "IphoneV2",
+    "science": 15,
+    "production": 15,
+    "percentStatBonus": {
+      "science": 20,
+      "production": 20
+    }
+  },
+  {
+    "name": "IphoneG40ProMax",
+    "cost": 560,
+    "requiredTech": "IphoneV2",
+    "science": 16,
+    "production": 16,
+    "percentStatBonus": {
+      "science": 20,
+      "production": 20
+    }
+  }
+  ]
