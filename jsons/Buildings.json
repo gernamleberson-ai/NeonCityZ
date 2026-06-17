@@ -123,27 +123,7 @@
     "requiredTech": "RealnaRobota",
     "gold": 20,
     "production": 1
-  }
-  {
-    "name": "NationalFlag",
-    "cost": 80,
-    "faith": 6,
-    "happiness": 8
   },
-  {
-    "name": "TrainingArena",
-    "cost": 120,
-    "cityStrength": 15
-  },
-  {
-    "name": "UA_Cherteg",
-    "uniqueTo": "Україна",
-    "cost": 180,
-    "requiredTech": "Education",
-    "science": 4,
-    "percentStatBonus": {
-      "science": 50
-    },
   {
     "name": "WoodToyPhoneWorkshop",
     "cost": 80,
@@ -165,7 +145,6 @@
     "science": 2,
     "production": 2
   },
-
   {
     "name": "SamsungS1",
     "cost": 70,
@@ -226,7 +205,6 @@
     "requiredTech": "SamsungV1",
     "production": 10
   },
-
   {
     "name": "SamsungG34",
     "cost": 180,
@@ -347,7 +325,6 @@
       "production": 20
     }
   },
-
   {
     "name": "IphoneS1",
     "cost": 70,
@@ -408,7 +385,6 @@
     "requiredTech": "IphoneV1",
     "science": 10
   },
-
   {
     "name": "IphoneG34",
     "cost": 180,
