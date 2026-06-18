@@ -317,16 +317,18 @@
         "cost": 155,
         "prerequisites": ["IphoneV2"],
         "uniques": []
-      },
-      {
+      }
+    ]
+  },
+  {
     "columnNumber": 50,
-    "era": "Усердная робота",
+    "era": "Classical",
     "techCost": 120,
     "buildingCost": 200,
     "wonderCost": 400,
     "techs": [
       {
-        "name": "Заводы 1 части",
+        "name": "ZavodyPart1",
         "row": 1,
         "cost": 120,
         "prerequisites": ["Mathematics"],
@@ -336,13 +338,13 @@
   },
   {
     "columnNumber": 51,
-    "era": "Усердная робота",
+    "era": "Classical",
     "techCost": 140,
     "buildingCost": 220,
     "wonderCost": 440,
     "techs": [
       {
-        "name": "Радостная пакостыня",
+        "name": "RadostnayaPakostynya",
         "row": 1,
         "cost": 140,
         "prerequisites": ["Mathematics"],
@@ -350,4 +352,4 @@
       }
     ]
   }
-    ]
+]
