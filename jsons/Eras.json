@@ -4,11 +4,25 @@
   },
   {
     "name": "TritonEnergy",
-    "eraNumber": 1.5,
-    "startPercent": 0.15,
-    "endPercent": 0.30
+    "iconRGB": [0, 200, 255]
+  },
+  {
+    "name": "Усердная робота",
+    "iconRGB": [120, 200, 120]
   },
   {
     "name": "Classical"
+  },
+  {
+    "name": "Medieval"
+  },
+  {
+    "name": "Renaissance"
+  },
+  {
+    "name": "Industrial"
+  },
+  {
+    "name": "Modern"
   }
 ]
