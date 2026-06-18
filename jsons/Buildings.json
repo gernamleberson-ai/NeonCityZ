@@ -236,6 +236,7 @@
       "science": 5,
       "production": 5
     }
+  },
   {
     "name": "SamsungG35Pro",
     "cost": 280,
@@ -502,7 +503,8 @@
     "percentStatBonus": {
       "science": 20,
       "production": 20
-    },
+    }
+  },
   {
     "name": "OgromnayaShahta",
     "cost": 300,
