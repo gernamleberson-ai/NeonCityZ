@@ -503,6 +503,61 @@
     "percentStatBonus": {
       "science": 20,
       "production": 20
-    }
+    },
+  {
+    "name": "OgromnayaShahta",
+    "cost": 300,
+    "requiredTech": "ZavodyPart1",
+    "gold": 30,
+    "production": 10
+  },
+  {
+    "name": "SrednyayaShahta",
+    "cost": 180,
+    "requiredTech": "ZavodyPart1",
+    "gold": 15,
+    "production": 5
+  },
+  {
+    "name": "MalenkayaShahta",
+    "cost": 80,
+    "requiredTech": "ZavodyPart1",
+    "gold": 5
+  },
+  {
+    "name": "KolodetsDani",
+    "cost": 250,
+    "requiredTech": "ZavodyPart1",
+    "gold": 30,
+    "production": 3
+  },
+  {
+    "name": "OgromneyshiyBezumnoBolshoyZavod",
+    "cost": 7800,
+    "requiredTech": "ZavodyPart1",
+    "gold": 479,
+    "production": 250,
+    "faith": 40,
+    "science": 300,
+    "food": 30,
+    "happiness": 30,
+    "cityStrength": 30
+  },
+  {
+    "name": "Park",
+    "cost": 100,
+    "requiredTech": "RadostnayaPakostynya",
+    "happiness": 3,
+    "production": 1,
+    "faith": 1
+  },
+  {
+    "name": "Park300",
+    "cost": 3000,
+    "requiredTech": "RadostnayaPakostynya",
+    "happiness": 300,
+    "production": 300,
+    "faith": 300,
+    "science": 300
   }
 ]
