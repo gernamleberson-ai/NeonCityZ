@@ -351,7 +351,7 @@
         "uniques": []
       },
       {
-  "columnNumber": 99,
+  "columnNumber": 52,
   "era": "Cheater",
   "techCost": 1,
   "buildingCost": 1,
@@ -359,10 +359,10 @@
   "techs": [
     {
       "name": "Cheats 1",
-      "row": 0,
+      "row": 1,
       "cost": 1,
       "prerequisites": [],
-      "quote": "Cheat power online."
+      "uniques": []
     }
   ]
       }
