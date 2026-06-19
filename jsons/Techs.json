@@ -361,7 +361,7 @@
     "techs": [
       {
         "name": "Cheats 1",
-        "row": 0,
+        "row": 1,
         "cost": 1,
         "prerequisites": [],
         "quote": "Cheat power online."
