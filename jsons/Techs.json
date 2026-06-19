@@ -349,9 +349,11 @@
         "cost": 140,
         "prerequisites": ["Mathematics"],
         "uniques": []
-      },
+      }
+    ]
+  },
   {
-    "columnNumber": 52,
+    "columnNumber": 99,
     "era": "Cheater",
     "techCost": 1,
     "buildingCost": 1,
@@ -359,10 +361,11 @@
     "techs": [
       {
         "name": "Cheats 1",
-        "row": 1,
+        "row": 0,
         "cost": 1,
         "prerequisites": [],
-        "uniques": []
+        "quote": "Cheat power online."
       }
     ]
   }
+]
