@@ -24,5 +24,21 @@
   },
   {
     "name": "Modern"
+  },
+  {
+  "name": "Cheater",
+  "researchAgreementCost": 0,
+  "iconRGB": [255, 0, 255],
+  "startingSettlerCount": 1,
+  "startingWorkerCount": 1,
+  "startingMilitaryUnitCount": 1,
+  "startingGold": 5000,
+  "startingCulture": 5000,
+  "settlerPopulation": 1,
+  "baseUnitBuyCost": 1,
+  "embarkDefense": 999,
+  "startPercent": 0,
+  "citySound": "cityClassical",
+  "uniques": []
   }
 ]
