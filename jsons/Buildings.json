@@ -571,6 +571,7 @@
   "faith": 5000,
   "food": 5000,
   "gold": 5000,
+  "happiness": 999,
   "percentStatBonus": {
     "science": 999,
     "production": 999,
@@ -578,5 +579,7 @@
     "faith": 999,
     "food": 999,
     "gold": 999
+  },
+  "uniques": []
   }
-    ]
+]
