@@ -350,19 +350,19 @@
         "prerequisites": ["Mathematics"],
         "uniques": []
       },
+  {
+    "columnNumber": 52,
+    "era": "Cheater",
+    "techCost": 1,
+    "buildingCost": 1,
+    "wonderCost": 1,
+    "techs": [
       {
-  "columnNumber": 52,
-  "era": "Cheater",
-  "techCost": 1,
-  "buildingCost": 1,
-  "wonderCost": 1,
-  "techs": [
-    {
-      "name": "Cheats 1",
-      "row": 1,
-      "cost": 1,
-      "prerequisites": [],
-      "uniques": []
-    }
-  ]
+        "name": "Cheats 1",
+        "row": 1,
+        "cost": 1,
+        "prerequisites": [],
+        "uniques": []
       }
+    ]
+  }
