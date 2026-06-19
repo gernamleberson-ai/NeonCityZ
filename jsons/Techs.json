@@ -349,11 +349,9 @@
         "cost": 140,
         "prerequisites": ["Mathematics"],
         "uniques": []
-      }
-    ]
-  },
-  {
-  "columnNumber": 99,
+      },
+{
+  "columnNumber": 999,
   "era": "Cheater",
   "techCost": 1,
   "buildingCost": 1,
@@ -370,4 +368,3 @@
     }
   ]
 }
-  
