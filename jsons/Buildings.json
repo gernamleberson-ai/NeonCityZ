@@ -560,5 +560,23 @@
     "production": 300,
     "faith": 300,
     "science": 300
+  },
+  {
+  "name": "Mega Cheater Building",
+  "cost": 1,
+  "requiredTech": "Cheats 1",
+  "science": 5000,
+  "production": 5000,
+  "culture": 5000,
+  "faith": 5000,
+  "food": 5000,
+  "gold": 5000,
+  "percentStatBonus": {
+    "science": 999,
+    "production": 999,
+    "culture": 999,
+    "faith": 999,
+    "food": 999,
+    "gold": 999
   }
-]
+    ]
