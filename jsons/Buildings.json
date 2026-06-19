@@ -561,7 +561,7 @@
     "faith": 300,
     "science": 300
   },
-{
+  {
   "name": "Mega Cheater Building",
   "cost": 1,
   "requiredTech": "CheaterPack",
